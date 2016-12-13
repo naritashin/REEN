@@ -394,6 +394,11 @@
 
 .middle_list_txt {
   padding: 15px 0;
+  font-size: 20px;
+}
+
+.identity {
+  font-size: 14px;
 }
 
 .identity {
@@ -423,7 +428,7 @@
   font-weight: bold;
 }
 
-.middle_list_img:hover .small::after {
+.small_txt {
   display: flex;
   position: absolute;
   top: 0;
@@ -432,10 +437,19 @@
   height: 185px;
   justify-content: center;
   align-items: center;
-  content: "Astor & Yancy identity";
   color: #fff;
-  font-weight: bold;
   background: rgba(0, 188, 156, .9);
+  opacity: 0;
+  /*z-index: -1;*/
+}
+
+
+.middle_list_img:hover .small .small_txt {
+  display: flex;
+  color: #fff;
+  background: rgba(0, 188, 156, .9);
+  /*z-index: 0;*/
+  opacity: 1;
 }
 
 .main_bottom {
@@ -535,7 +549,6 @@
   content: "+";
   color: #fff;
   background: rgba(0, 188, 156, .9);
-  font-weight: bold;
 }
 
 .footer_link_box {
