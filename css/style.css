@@ -27,7 +27,7 @@
 }
 
 .header_top {
-  width: 1200px;
+  width: 1170px;
   height: 40px;
   margin: auto;
 }
@@ -185,7 +185,7 @@
 }
 
 .header_bottom_box {
-  width: 1200px;
+  width: 1170px;
   height: 110px;
   margin: 0 auto;
 }
@@ -301,12 +301,12 @@
 .title {
   color: #506a85;
   font-size: 44px;
-  margin: 31px 0 33px;
+  margin: 31px 0 30px;
 }
 
 .txt {
   color: #506a85;
-  font-size: 21px;
+  font-size: 22px;
   line-height: 33px;
 }
 
@@ -327,7 +327,7 @@
 
 .top_list {
   float: left;
-  width: 390px;
+  width: 380px;
   box-sizing: border-box;
 }
 
@@ -343,7 +343,12 @@
   line-height: 24px;
 }
 
+.main_top_list > li {
+  margin-left: 10px;
+}
+
 .main_top_list > li:first-child {
+  margin-left: 0;
   background: url(../img/main/description-passion.png) no-repeat top left;
 }
 
@@ -382,13 +387,17 @@
 
 .middle_list_txtbox {
   padding: 15px 0;
-  font-size: 26px;
+  font-size: 20px;
   background: #fff;
   color: #506a85;
 }
 
 .middle_list_txt {
   padding: 15px 0;
+}
+
+.identity {
+  font-size: 14px;
 }
 
 .large:hover .middle_list_txt {
