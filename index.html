@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="format-detection" content="telephone=no">
-    <title>REEN</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <title>REEN</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Open+Sans+Condensed:300" rel="stylesheet">
 </head>
 <body>
-  <header class="header">
+  <header>
     <div class="header_box">
       <div class="header_top cf">
         <div class="header_left fl">
           <ul class="header_contacts">
             <li>
-              <a href="mailto:info@reen.com" class="contact header_mail">info@reen.com</a>
+              <a href="mailto:info@reen.com" class="contact header_mail">
+                <address>
+                  info@reen.com
+                </address>
+              </a>
             </li>
             <li>
               <a href="tell:+00(123)4567890" class="contact header_tel">
-                +00 (123) 456 78 90
+                <address>
+                  +00 (123) 456 78 90
+                </address>
               </a>
             </li>
           </ul>
@@ -50,26 +58,30 @@
         </div>
       </div>
     </div>
-    <div class="header_bottom">
+    <nav class="header_bottom">
       <div class="header_bottom_box">
           <a href="" class="REEN fl">
-            <img src="./img/header/logo.png" alt="REEN">
+            <h1>
+              <img src="./img/header/logo.png" alt="REEN">
+            </h1>
           </a>
         <ul class="header_menu cf fl">
-          <li class="menu">HOME</li>
-          <li class="menu">PORTFOLIO</li>
-          <li class="menu">BLOG</li>
-          <li class="menu">PAGES</li>
-          <li class="menu">FEATURES</li>
-          <li class="menu">MEGA MENU</li>
-          <li class="menu">CONTACT</li>
+          <li>HOME</li>
+          <li>PORTFOLIO</li>
+          <li>BLOG</li>
+          <li>PAGES</li>
+          <li>FEATURES</li>
+          <li>MEGA MENU</li>
+          <li>CONTACT</li>
         </ul>
+      </div>
+    </nav>
   </header>
-  <div class="main">
-    <div class="key_visual_box">
+  <main>
+    <section class="key_visual_box">
       <div class="key_visual_inbox">
         <div class="key_visual_txtbox">
-          <h1 class="key_visual_title">MADE FOR DESIGNERS</h1>
+          <h2 class="key_visual_title">MADE FOR DESIGNERS</h2>
           <p class="key_visual_txt">
             Create your online portfolio in minutes with the professionally and lovingly designed REEN<br>
             website template. Customize your site with versatile and easy to use features.
@@ -80,10 +92,10 @@
           </a>
         </div>
       </div>
-    </div>
-    <div class="main_top">
+    </section>
+    <section class="main_top">
       <div class="main_top_txtbox">
-        <h1 class="main_top_title title">Beautiful. Clean. Responsive.</h1>
+        <h2 class="main_top_title title">Beautiful. Clean. Responsive.</h2>
         <p class="txt">REEN is a high-quality solution for those who want a beautiful website in no time.<br>
         It's fully responsive and will adapt itself to any mobile device. iPad, iPhone, Android,<br>
         it doesn't matter. Your content will always looks its absolute best.</p>
@@ -110,15 +122,15 @@
           </li>
         </ul>
       </div>
-    </div>
-    <div class="main_middle">
+    </section>
+    <section class="main_middle">
       <div class="main_middle_box">
         <div class="main_middle_txtbox">
-          <h1 class="main_middle_title title">Check out our latest works</h1>
+          <h2 class="main_middle_title title">Check out our latest works</h2>
           <p class="main_middle_txt txt">Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor.</p>
           <div class="middle_list_box cf">
             <ul class="middle_list_large">
-              <li class="middle_list_img">
+              <li>
                 <a href="" class="middle_list_link large">
                   <img src="./img/main/work-main-1.jpg" alt="work1">
                   <div class="middle_list_txtbox">
@@ -127,9 +139,11 @@
                   </div>
                 </a>
               </li>
-              <li class="middle_list_img">
+              <li>
                 <a href="" class="middle_list_link large">
-                  <img src="./img/main/work-main-2.jpg" alt="work2">
+                  <figure>
+                    <img src="./img/main/work-main-2.jpg" alt="work2">
+                  </figure>
                   <div class="middle_list_txtbox">
                     <p class="middle_list_txt">Fresh branding for a creative startup</p>
                     <p class="identity">identity</p>
@@ -140,28 +154,36 @@
           </div>
           <div class="middle_list_box cf">
             <ul class="middle_list_small">
-              <li class="middle_list_img">
+              <li>
                 <a href="" class="middle_list_link small">
-                  <img src="./img/main/work-sub-1.jpg" alt="">
+                  <figure>
+                    <img src="./img/main/work-sub-1.jpg" alt="">
+                  </figure>
                   <p class="small_txt">Astor &amp; Yancy<br>identity</p>
                 </a>
               </li>
-              <li class="middle_list_img">
+              <li>
                 <a href="" class="middle_list_link small">
-                  <img src="./img/main/work-sub-2.jpg" alt="">
+                  <figure>
+                    <img src="./img/main/work-sub-2.jpg" alt="">
+                  </figure>
                   <p class="small_txt">Astor &amp; Yancy<br>identity</p>
                 </a>
               </li>
 
-              <li class="middle_list_img">
+              <li>
                 <a href="" class="middle_list_link small">
-                  <img src="./img/main/work-sub-3.jpg" alt="">
+                  <figure>
+                    <img src="./img/main/work-sub-3.jpg" alt="">
+                  </figure>
                   <p class="small_txt">Astor &amp; Yancy<br>identity</p>
                 </a>
               </li>
-              <li class="middle_list_img">
+              <li>
                 <a href="" class="middle_list_link small">
-                  <img src="./img/main/work-sub-4.jpg" alt="">
+                  <figure>
+                    <img src="./img/main/work-sub-4.jpg" alt="">
+                  </figure>
                   <p class="small_txt">Astor &amp; Yancy<br>identity</p>
                 </a>
               </li>
@@ -169,24 +191,24 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="main_bottom">
+    </section>
+    <section class="main_bottom">
       <div class="bottom_txtbox">
-        <h1 class="bottom_title title">Want to work with us?</h1>
-        <p class="bottom_txt txt">
+        <h2 class="title">Want to work with us?</h2>
+        <p class="txt">
           Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor.<br>Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam.
         </p>
         <a href="" class="btn sbtn">
           <span class="get_in_btn">GET IN TOUCH</span>
         </a>
       </div>
-    </div>
-  </div>
-  <footer class="footer">
+    </section>
+  </main>
+  <footer>
     <div class="footer_top">
       <div class="footer_list_box cf">
         <ul class="footer_list">
-          <li class="footer_list_txtbox">
+          <li>
             <h2 class="footer_list_title">WHO WE ARE</h2>
             <a href="" class="footer_REEN">
               <img src="./img/footer/logo.png" alt="REEN." class="footer_REEN_img">
@@ -196,32 +218,32 @@
               More about us <span class="rarr">&rarr;</span>
             </a>
           </li>
-          <li class="footer_list_txtbox">
+          <li>
             <h2 class="footer_list_title">LATEST WORKS</h2>
-            <ul class="lastest">
-              <li class="footer_list_img">
+            <ul class="footer__latest__list">
+              <li>
                 <a href="" class="footer_list_link">
                   <img src="./img/footer/thumb-1.jpg" alt="thumb-1" class="fimg">
                 </a>
               </li>
-              <li class="footer_list_img">
+              <li>
                 <a href="" class="footer_list_link">
                   <img src="./img/footer/thumb-2.jpg" alt="thumb-2" class="fimg">
                 </a>
               </li>
-              <li class="footer_list_img">
+              <li>
                 <a href="" class="footer_list_link">
                   <img src="./img/footer/thumb-3.jpg" alt="thumb-3" class="fimg">
                 </a>
               </li>
-              <li class="footer_list_img">
+              <li>
                 <a href="" class="footer_list_link">
                   <img src="./img/footer/thumb-4.jpg" alt="thumb-4" class="fimg">
                 </a>
               </li>
             </ul>
           </li>
-          <li class="footer_list_txtbox">
+          <li>
             <h2 class="footer_list_title">GET IN TOUCH</h2>
             <p class="footer_list_txt">Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent accullignis dentibea autem inisita.</p>
             <div class="footer_link_box">
@@ -230,7 +252,7 @@
               <a href="" class="get_in_link link">info@reen.com</a>
             </div>
           </li>
-          <li class="footer_list_txtbox">
+          <li>
             <h2 class="footer_list_title">FREE UPDATES</h2>
             <p class="footer_list_txt">Conecus iure posae volor remped modis aut lor volor accabora incim resto explabo.</p>
             <div class="form cf">
@@ -243,26 +265,26 @@
     </div>
     <div class="footer_bottom">
       <div class="footer_bottom_txtbox cf">
-        <div class="footer_txt copy">&copy; 2014 REEN.All rights reserved.
+        <div class="fl">&copy; 2014 REEN.All rights reserved.
         </div>
-        <div class="footer_txt site_map_box cf">
+        <div class="fr cf">
           <ul class="site_map_list">
-            <li class="site_map">
+            <li>
               <a href="" class="site_map_link">Home</a>
             </li>
-            <li class="site_map">
+            <li>
               <a href="" class="site_map_link">Portfolio</a>
             </li>
-            <li class="site_map">
+            <li>
               <a href="" class="site_map_link">Blog</a>
             </li>
-            <li class="site_map">
+            <li>
               <a href="" class="site_map_link">About</a>
             </li>
-            <li class="site_map">
+            <li>
               <a href="" class="site_map_link">Services</a>
             </li>
-            <li class="site_map">
+            <li>
               <a href="" class="site_map_link">Contact</a>
             </li>
           </ul>
